@@ -27,30 +27,30 @@ body {
 
 h1,
 h2 {
-    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-    color: #fff;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 20px;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 6em;
+  font-size: 6em;
 }
 
 h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 ul.social-network {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    padding-left: 0;
-    margin: 0;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+  justify-content: center;
+  flex-direction: row;
 }
 
 ul.social-network li {
@@ -64,8 +64,8 @@ ul > li {
   color: #fff;
   padding: 0;
   margin: 0;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
+  -webkit-animation: fadein 2s;
+  -ms-animation: fadein 2s;
   animation: fadein 2s;
 }
 
@@ -81,18 +81,8 @@ ul > li {
   background-color: #f36e21;
 }
 
-.social-network a.icoGoogle:hover {
-  background-color: #bd3518;
-}
-
 .social-network a.icoLinkedin:hover {
   background-color: #007bb7;
-}
-
-.social-network a.icoFacebook:hover i,
-.social-network a.icoCollege:hover i,
-.social-network a.icoGoogle:hover i {
-  color: #fff;
 }
 
 .social-circle li a {
@@ -148,15 +138,5 @@ ul > li {
 @media (max-width: 390px) {
   h1 {
     font-size: 5em;
-  }
-  footer {
-    text-align: bottom;
-    font: normal 10px/1.2 Roboto, Helvetica, Arial, sans-serif;
-    text-shadow: 50px 50px #000000;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    margin: 10% auto;
-    width: 100%;
   }
 }
