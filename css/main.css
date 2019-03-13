@@ -3,7 +3,7 @@ body {
   font: normal 16px/1.2 Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
   text-shadow: 1px 1px #000;
-  background: url(../img/winter.jpg) no-repeat center center fixed;
+  background: url(../img/winter.webp) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,5 +138,13 @@ ul > li {
 @media (max-width: 390px) {
   h1 {
     font-size: 5em;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  html,
+  body {
+    background: url(../img/winter.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
 }
