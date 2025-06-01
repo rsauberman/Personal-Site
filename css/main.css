@@ -1,6 +1,17 @@
+html, body {
+  overscroll-behavior-y: none;
+}
+
 body {
-  background: url(../img/winter.webp) no-repeat center center fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font: normal 20px/1.4 "Roboto", Arial, system-ui, sans-serif;
   text-shadow: 1px 1px #000;
   display: flex;
@@ -85,26 +96,6 @@ main {
 
     &:hover {
       transform: rotate(360deg);
-    }
-  }
-}
-
-/* Support for IE */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  html,
-  body {
-    background: url(../img/winter.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-}
-
-/* Support for Safari */
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    html,
-    body {
-      background: url(../img/winter.jpg) no-repeat center center fixed;
-      background-size: cover;
     }
   }
 }
